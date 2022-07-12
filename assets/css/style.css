@@ -720,8 +720,8 @@ audio {
   color: #fff;
 }
 .cta .cta-btn:hover {
-  background: #4eb478;
-  border: 2px solid #4eb478;
+  background: #8d2c28;
+  border: 2px solid #8d2c28;
 }
 
 /*--------------------------------------------------------------
@@ -738,7 +738,7 @@ audio {
 }
 .services .icon-box i {
   float: left;
-  color: #4eb478;
+  color: #8d2c28;
   font-size: 40px;
   line-height: 0;
 }
@@ -753,7 +753,7 @@ audio {
   transition: 0.3s;
 }
 .services .icon-box .icon-box:hover h4 a {
-  color: #4eb478;
+  color: #8d2c28;
 }
 .services .icon-box p {
   margin-left: 70px;
