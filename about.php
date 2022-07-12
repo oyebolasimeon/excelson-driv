@@ -11,8 +11,8 @@
         <div class="container">
 
           <div class="row">
-            <div data-aos="fade-right" class="image col-md-6 d-flex align-items-stretch justify-content-center justify-content-lg-start">
-            <img src="./assets/car-bg.png" alt="excelson-car-background" srcset="" class="img-fluid">
+            <div data-aos="fade-left" class="image col-md-6 d-flex align-items-stretch justify-content-center justify-content-lg-start">
+            <img src="./assets/car-bg.png" style="" alt="excelson-car-background" srcset="" class="img-fluid">
         </div>
             <div class="col-md-6 pt-4 pt-lg-0 d-flex align-items-stretch">
               <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
