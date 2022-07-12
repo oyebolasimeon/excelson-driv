@@ -479,14 +479,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
   display: block;
   width: 40%;
+  color: #8d2c28;
   min-height: 7vh;
   border-radius: 5px 5px;
-  border: 2px solid #18d26e;
+  border: 1px solid #8d2c28;
   text-align: center;
   padding-top: 1vh;
 }
 .about-btn:hover{
-  background-color: #18d26e;
+  background-color: #8d2c28;
   color: #fff;
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
@@ -577,7 +578,7 @@ audio {
 .about .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #4eb478;
+  color: #8d2c28;
 }
 .about .content .icon-box p {
   font-size: 15px;
@@ -1470,14 +1471,14 @@ audio {
   background: none;
   font-size: 16px;
   padding: 0 20px 3px 20px;
-  background: #4eb478;
+  background: #8d2c28;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #45a36c;
+  background: #701e1b;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
@@ -1517,7 +1518,7 @@ audio {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #4eb478;
+  color: #8d2c28;
   font-size: 18px;
   line-height: 1;
 }
@@ -1537,7 +1538,7 @@ audio {
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #4eb478;
+  color: #8d2c28;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
@@ -1554,7 +1555,7 @@ audio {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #4eb478;
+  background: #8d2c28;
   color: #fff;
   text-decoration: none;
 }
