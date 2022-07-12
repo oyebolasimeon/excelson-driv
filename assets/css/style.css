@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #4eb478;
+  color: #8d2c28;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
