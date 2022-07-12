@@ -46,14 +46,14 @@
               <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
                 <i class="bx bxs-user-voice" style="color: #3145fa;"></i>
                 <h4><a href="#">Driving Tutorials (Begineers/Refreshers) </a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                <p>We offer online and physical tutorials for beginner driver or/and drivers who will like to takea voluntary refreshers course</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="icon-box" data-aos="fade-up" data-aos-delay="600">
                 <i class="bx bx-pencil" style="color: #a00098;"></i>
                 <h4><a href="#">Drive Test</a></h4>
-                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                <p>One of the requirement to becoming a licensed driver in Manitoba is passing the DRIVING TEST and certified by an authorized driving institute. Book a Driving test session with us.</p>
               </div>
             </div>
           </div>
