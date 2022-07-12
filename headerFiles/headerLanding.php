@@ -32,10 +32,24 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <script>
+var i = 0;
+var txt = 'Welcome To Excelson Driving School.';
+var speed = 300;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("excelsonText").innerHTML += txt.charAt(i);
+    i++; 
+    setTimeout(typeWriter, speed);
+  } 
+}
+</script>
+
 
 </head>
 
-<body>
+<body onLoad="typeWriter()">
   <div class="wrap">
 
 
