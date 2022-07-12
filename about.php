@@ -17,7 +17,7 @@
                 <h3>ABOUT US</h3>
                 <p>
                   
-Excelson Driving School is a registered and licensed driving school operating within Brandon and extending our services to other province in Canada. <br> Our vehicles are fully equiped and we ensure all safety measure observed in our vehicles
+Excelson Driving School is a registered and licensed driving school operating within Brandon, Manitoba and extending our services to other provinces in Canada. <br> Our vehicles are fully equiped and we ensure the observance of all safety measures.
                 </p>
                 <div class="row">
                   <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
@@ -28,7 +28,7 @@ Excelson Driving School is a registered and licensed driving school operating wi
                   <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
                     <i class="bx bx-cube-alt"></i>
                     <h4>Instructors</h4>
-                    <p>Our experienced and quality instructors makes Excelson Driving School the best choice in the province.</p>
+                    <p>Our experienced and qualified Instructors makes Excelson Driving School one the best choices in the province.</p>
                   </div>
                   <div class="col-md-12 icon-box" data-aos="zoom-in" data-aos-delay="400">
                   <a href="./services.php" class="about-btn">Explore Our Services <i class="fa fa-arrow"></i></a>

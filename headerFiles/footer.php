@@ -5,7 +5,7 @@
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <h4>Join Our Newsletter</h4>
-              <p>Are you interested in getting driving related NEWS in Canada? You Subscribe!</p>
+              <p>Interested in getting any Information as regards driving in Manitoba? Kindly Subscribe!</p>
               <form action="" method="post">
                 <input type="email" name="email"><input type="submit" value="Subscribe">
               </form>
@@ -54,7 +54,7 @@
 
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Our Social Networks</h4>
-              <p>Kindlyu Follow us on our social media handle</p>
+              <p>Kindly Follow us on our social media handle</p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>

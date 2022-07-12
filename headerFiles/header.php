@@ -45,10 +45,10 @@
     <header id="header" class="d-flex align-items-center">
       <div class="container d-flex align-items-center justify-content-between">
 
-        <div class="logo" style="margin-top: 2vh; margin-bottom: 1vh;" >
+        <div class="logo" style=" margin-bottom: 1vh;" >
           <!-- <h1 class="text-light"><a href="index.html"><span>Excelson</span></a></h1> -->
           <!-- Uncomment below if you prefer to use an image logo -->
-          <a href="index.php"><img src="assets/logo.png" alt="" class="img-fluid"></a>
+          <a href="index.php"><img src="assets/new-log0.png" alt="" class="img-fluid"></a>
         </div>
 
         <nav id="navbar" class="navbar">
