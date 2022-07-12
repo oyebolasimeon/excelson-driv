@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  height: 11vh;
+  height: 17vh;
 }
 
 .scrolled-offset {
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #4eb478;
+  color: #8D2C28;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
