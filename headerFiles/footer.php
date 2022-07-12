@@ -5,7 +5,7 @@
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <h4>Join Our Newsletter</h4>
-              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+              <p>Are you interested in getting driving related NEWS in Canada? You Subscribe!</p>
               <form action="" method="post">
                 <input type="email" name="email"><input type="submit" value="Subscribe">
               </form>
@@ -19,22 +19,22 @@
           <div class="row">
 
             <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>Plato</h3>
+              <h3>Excelson Driving School</h3>
+              
               <p>
-                A108 Adam Street <br>
-                New York, NY 535022<br>
-                United States <br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Brandon, Manitoba <br>
+               Canada<br><br>
+                <strong>Phone:</strong> +1 (204) 881-4719<br>
+                <strong>Email:</strong> info@excelsondrivingschool.com<br>
               </p>
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="./landingPage.php">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="./about.php">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="./services.php">Services</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
               </ul>
@@ -43,11 +43,12 @@
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Our Services</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">In-Car Lessons</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Pick Up</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Drop Off</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Neighbourhood Logistics</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Car Rentals</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Driving Tutorials</a></li>
               </ul>
             </div>
 

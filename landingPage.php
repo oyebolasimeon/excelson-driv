@@ -4,11 +4,11 @@
   require_once $dir;
 ?>
 
-<section id="hero">
+<section id="hero" >
       <div class="hero-container" data-aos="fade-up">
-        <h1>Excelson Driving School</h1>
+        <h1 id="excelsonText"></h1>
         <h2>Get along with us</h2>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="./about.php" class="btn-get-started scrollto">Get Started</a>
       </div>
     </section><!-- End Hero -->
 
