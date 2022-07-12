@@ -1,5 +1,5 @@
 ---
-  deployment:
-    tasks:
-      - export DEPLOYPATH=/home/oyebkdud/public_html #Add /excelson/ if required
-      - /bin/cp -r * $DEPLOYPATH
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/oyebkdud/public_html #Add /excelson if required
+    - /bin/cp -r * $DEPLOYPATH
