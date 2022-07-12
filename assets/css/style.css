@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 70px;
   z-index: 997;
   transition: all 0.5s;
-  background: #000;
+  background: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
 #header .logo h1 {
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 #header .logo img {
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-size: 16px;
   font-weight: 500;
-  color: #fff;
+  color: #000;
   white-space: nowrap;
   transition: 0.3s;
 }
