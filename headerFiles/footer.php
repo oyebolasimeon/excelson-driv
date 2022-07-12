@@ -32,10 +32,10 @@
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="./landingPage.php">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="./index.php">Home</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="./about.php">About us</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="./services.php">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Resources</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
               </ul>
             </div>
@@ -54,7 +54,7 @@
 
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Our Social Networks</h4>
-              <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+              <p>Kindlyu Follow us on our social media handle</p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -70,14 +70,10 @@
 
       <div class="container py-4">
         <div class="copyright">
-          &copy; Copyright <strong><span>Plato</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>Excelson Driving School</span></strong>.
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/plato-responsive-bootstrap-website-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href="https://oyebolasimeon.cloud">Oyebola Simeon</a>
         </div>
       </div>
     </footer><!-- End Footer -->

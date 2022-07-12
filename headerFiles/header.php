@@ -52,7 +52,7 @@
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="./landingPage.php">Home</a></li>
+            <li><a class="nav-link scrollto active" href="./index.php">Home</a></li>
             <li><a class="nav-link scrollto" href="./about.php">About</a></li>
             <li><a class="nav-link scrollto" href="./services.php">Services</a></li>
             <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
