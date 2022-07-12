@@ -11,10 +11,13 @@
         <div class="container">
 
           <div class="row">
-            <div data-aos="fade-left" class="image col-md-6 d-flex align-items-stretch justify-content-center justify-content-lg-start">
-            <img src="./assets/car-bg.png" style="" alt="excelson-car-background" srcset="" class="img-fluid">
+            <div data-aos="fade-left" class="image col-md-12 d-flex align-items-stretch justify-content-center justify-content-lg-start">
+            <img src="./assets/car-bg.png" style="margin: auto;" alt="excelson-car-background" srcset="" class="img-fluid">
         </div>
-            <div class="col-md-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+</div>
+
+            <div class="row"> 
+            <div class="col-md-12 pt-4 pt-lg-0 d-flex align-items-stretch">
               <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
                 <h3>ABOUT US</h3>
                 <p>
@@ -39,6 +42,8 @@ Excelson Driving School is a registered and licensed driving school operating wi
               </div><!-- End .content-->
             </div>
           </div>
+
+</div>
 
         </div>
       </section><!-- End About Section -->
