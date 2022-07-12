@@ -10,9 +10,10 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Plato Bootstrap Template - Index</title>
+  <title>Excelson Driving School -  Manitoba Canada</title>
   <meta content="Excelson Driving School" name="description">
-  <meta content="" name="keywords">
+  <meta content="Driving School Road Test Canada" name="keywords">
+  <meta property="og:image" content="assets/icon.png ">
 
   <!-- Favicons -->
   <link href="assets/icon.png" rel="icon">
