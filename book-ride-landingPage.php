@@ -41,7 +41,7 @@
         <input type="text" required autocomplete="off" name="nameVal" style="background: 8D2C28;  min-height:5vh; width: 50%; margin: auto; display: flex;" />
       </div>
       <div class="modal-footer">
-      <a href="./index.php" type="button" style="color: #fff; text-decoration: none;" class="btn btn-success" data-dismiss="modal">< Homepage</a>
+      <a href="./index.php" type="button" style="color: #fff; text-decoration: none;" class="btn btn-success">< Homepage</a>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="submit" class="btn btn-primary">Schedule Lesson</button>
       </div>
