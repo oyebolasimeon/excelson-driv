@@ -217,6 +217,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Warning Text */
+.warning-text{
+  color: red;
+  font-size: 12px;
+  font-style: italic;
+}
 /**
 * Mobile Navigation 
 */

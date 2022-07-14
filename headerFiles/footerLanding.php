@@ -6,6 +6,19 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
+  <script>
+    $(function() {
+    $('input[id="datetimes"]').daterangepicker({
+        timePicker: true,
+        startDate: moment().startOf('hour'),
+        endDate: moment().startOf('hour').add(32, 'hour'),
+        locale: {
+        format: 'M/DD hh:mm A'
+        }
+    });
+    });
+    </script>
+
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
