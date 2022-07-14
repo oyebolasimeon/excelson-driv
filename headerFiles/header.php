@@ -70,7 +70,6 @@
                 <li><a href="./book-ride-landingPage.php">Book Driving Lesson</a></li>
                 <li><a href="#">Book a Ride</a></li>
                 <li><a href="#">Neighbourhood Logistics</a></li>
-                <li><a href="#">Driving Test Booking</a></li>
               </ul>
             </li>
             <li><a href="blog.html">Blog</a></li>
