@@ -10,8 +10,8 @@
 
           <div class="section-title" data-aos="fade-down">
             <span>EXCELSON</span>
-            <h2>Video Resources</h2>
-            <p>Driving Lesson Video Resources. Click on the cards to access video</p>
+            <h2>PDF Resources</h2>
+            <p>This includes Drivers handbook from MPI and are well organized here. Click on the cards to access PDFs</p>
           </div>
 
           <div class="row" data-aos="fade-up" data-aos-delay="150">
