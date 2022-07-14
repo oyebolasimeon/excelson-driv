@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #8d2c28;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #8d2c28;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #444444;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #4eb478;
+  color: #8d2c28;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -358,12 +358,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 28px;
   border-radius: 5px;
   transition: 0.5s;
-  border: 2px solid #4eb478;
+  border: 2px solid #8d2c28;
   color: #fff;
 }
 #hero .btn-get-started:hover {
-  background: #4eb478;
-  border: 2px solid #4eb478;
+  background: #8d2c28;
+  border: 2px solid #8d2c28;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -441,12 +441,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 28px;
   border-radius: 5px;
   transition: 0.5s;
-  border: 2px solid #4eb478;
+  border: 2px solid #8d2c28;
   color: #fff;
 }
 #heros .btn-get-started:hover {
-  background: #4eb478;
-  border: 2px solid #4eb478;
+  background: #8d2c28;
+  border: 2px solid #8d2c28;
 }
 @media (min-width: 1024px) {
   #heros {
