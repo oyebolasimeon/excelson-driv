@@ -9,7 +9,7 @@
         <img src="assets/new-log0.png" class="image-fluid" alt="" srcset="">
         <h1 id="excelsonText"></h1>
         <h2>Get along with us</h2>
-        <a href="./about.php" class="btn-get-started scrollto">Get Started</a>
+        <a style="text-decoration: none;" href="./about.php" class="btn-get-started scrollto">Get Started</a>
       </div>
     </section><!-- End Hero -->
 
