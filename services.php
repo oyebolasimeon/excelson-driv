@@ -18,7 +18,7 @@
               <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                 <i class="bx bxs-car" style="color: #8d2c28;"></i>
                 <h4><a href="#">In-Car Lessons</a></h4>
-                <p>We give in-car lessons to novice drivers who are on the verge of getting to the road</p>
+                <p>We give in-car lessons to everyone who wish to acquire novice drivers who are on the verge of getting to the road</p>
               </div>
             </div>
             <div class="col-md-6">
