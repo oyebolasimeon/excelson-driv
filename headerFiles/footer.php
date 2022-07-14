@@ -35,7 +35,7 @@
                 <li><i class="bx bx-chevron-right"></i> <a href="./index.php">Home</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="./about.php">About us</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="./services.php">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Resources</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="./video-resource.php">Resources</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
               </ul>
             </div>
@@ -43,12 +43,12 @@
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Our Services</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">In-Car Lessons</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Pick Up</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Drop Off</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Neighbourhood Logistics</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Car Rentals</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Driving Tutorials</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="./services.php">In-Car Lessons</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="./services.php">Pick Up</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="./services.php">Drop Off</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="./services.php">Neighbourhood Logistics</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="./services.php">Car Rentals</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="./services.php">Driving Tutorials</a></li>
               </ul>
             </div>
 
@@ -72,7 +72,7 @@
           &copy; Copyright <strong><span>Excelson Driving School</span></strong>.
         </div>
         <div class="credits">
-          Designed by <a href="https://oyebolasimeon.cloud">Oyebola Simeon</a>
+          Developed by <a href="https://oyebolasimeon.cloud">Oyebola Simeon</a>
         </div>
       </div>
     </footer><!-- End Footer -->

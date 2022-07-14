@@ -58,8 +58,8 @@
             <li><a class="nav-link scrollto" href="./services.php">Services</a></li>
             <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
-                <li><a href="#">Video Courses</a></li>
-                <li><a href="#">PDF Materials</a></li>
+                <li><a href="./video-resource.php">Video Courses</a></li>
+                <li><a href="./pdf-resources.php">PDF Materials</a></li>
                 <li><a href="https://onlineservices.mpi.mb.ca/drivertesting/en/kt">MPI Knowledge Test</a></li>
                 <li><a href="https://www.mpi.mb.ca/Pages/Education-Safety.aspx">MPI Road Safety</a></li>
               </ul>
