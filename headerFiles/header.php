@@ -64,8 +64,7 @@
                 <li><a href="https://www.mpi.mb.ca/Pages/Education-Safety.aspx">MPI Road Safety</a></li>
               </ul>
             </li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li class="dropdown"><a href="#"><span>Book</span> <i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown"><a href="#"><span>Bookings</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
                 <li><a href="./book-ride-landingPage.php">Book Driving Lesson</a></li>
                 <li><a href="#">Book a Ride</a></li>
