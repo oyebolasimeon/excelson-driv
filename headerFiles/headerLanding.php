@@ -35,7 +35,7 @@
 
   <script>
 var i = 0;
-var txt = 'Welcome To Excelson Driving School.';
+var txt = 'Welcome To Excelson Driving School';
 var speed = 300;
 
 function typeWriter() {
