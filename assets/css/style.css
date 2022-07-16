@@ -554,7 +554,7 @@ section {
 /* Audio */
 
 audio {
-  display: none;
+  display: hidden;
 }
 
 /*--------------------------------------------------------------
