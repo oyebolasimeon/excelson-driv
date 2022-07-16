@@ -13,7 +13,7 @@
       </div>
     </section><!-- End Hero -->
 
-    <audio style="display: nonehide aa;"
+    <audio hidden
         controls
         src="./assets/audio.mp3" autoplay loop>
             Your browser does not support the

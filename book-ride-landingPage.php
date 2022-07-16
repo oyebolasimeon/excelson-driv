@@ -59,7 +59,7 @@
 
     <audio
         controls
-        src="./assets/audio.mp3" autoplay loop>
+        src="./assets/audio.mp3" hidden autoplay loop>
             Your browser does not support the
             <code>audio</code> element.
     </audio>
