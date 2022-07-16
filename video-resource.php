@@ -26,7 +26,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                    <img src="./assets/video-bg.jpg" style="height:30%;" class="img-fluid" alt="">
+                    <img src="./assets/video-bg.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>MPI Driving Test</h4>
                         <p>episode one</p>
@@ -39,7 +39,7 @@
             
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                    <img src="./assets/video-bg.jpg" style="height:30%;" class="img-fluid" alt="">
+                    <img src="./assets/video-bg.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>MPI Driving Test</h4>
                         <p>episode two</p>
@@ -52,7 +52,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                    <img src="./assets/video-bg.jpg" style="height:30%;" class="img-fluid" alt="">
+                    <img src="./assets/video-bg.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>MPI Driving Test</h4>
                         <p>episode three</p>
