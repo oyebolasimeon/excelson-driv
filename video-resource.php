@@ -25,7 +25,7 @@
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
 
         <?php
-		include "headerfiles/connection.php";
+		include "headerFiles/connection.php";
 		$sql = "SELECT * FROM resources where type='video' order by id desc";	
 		  $query = $db_connect->query($sql);
 
