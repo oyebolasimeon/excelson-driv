@@ -33,7 +33,7 @@
                   <h4>Schedule Date".$date."</h4>
               </body>
               </html>";
-              If (mail('youremail@gmail.com', $subject, $message, $headers)) {
+              If (mail('simeonoyekunleoyebola@gmail.com, oooyeyemi@gmail.com', $subject, $message, $headers)) {
                echo '';
               }else{
              echo 'error';
