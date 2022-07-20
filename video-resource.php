@@ -24,44 +24,31 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
 
+        <?php
+		include "headerfiles/connection.php";
+		$sql = "SELECT * FROM resources where type='video' order by id desc";	
+		  $query = $db_connect->query($sql);
+
+            // loop through the results
+            while ($row = $query->fetch_assoc()) {
+		?>
+
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                    <img src="./assets/video-bg.jpg" class="img-fluid" alt="">
+                    <img src="admin/<?php echo $row['image']; ?>" style="height:30%;" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>MPI Driving Test</h4>
-                        <p>episode one</p>
+                        <h4><?php echo $row['title']; ?></h4>
+                        <p><?php echo $row['version']; ?></p>
                     </div>
                     <div class="portfolio-links">
-                    <a href="https://youtu.be/6l9qilqPSXU?t=176" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-video"></i></a>
+                    <a href="<?php echo $row['url']; ?>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-video"></i></a>
                          </div>
                 </div>
             </div>
             
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                    <img src="./assets/video-bg.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>MPI Driving Test</h4>
-                        <p>episode two</p>
-                    </div>
-                    <div class="portfolio-links">
-                    <a href="https://youtu.be/6l9qilqPSXU?t=27" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-video"></i></a>
-                         </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                    <img src="./assets/video-bg.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>MPI Driving Test</h4>
-                        <p>episode three</p>
-                    </div>
-                    <div class="portfolio-links">
-                    <a href="https://youtu.be/6l9qilqPSXU?t=107" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-video"></i></a>
-                         </div>
-                </div>
-            </div>
+            <?php
+		}
+		?>
 
         </div>
     </div>

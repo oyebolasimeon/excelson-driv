@@ -1,3 +1,50 @@
+
+  <?php
+        if (isset($_POST['submit'])) {
+            $email = $_POST['email'];
+            $inserted_dt = date('Y-m-d H:i:s');
+            if($email == ''){
+              echo '<script>alert("Kindly Provide an Email Address")</script>';
+            }
+            else{
+              include "connection.php";
+              $emailquery = $db_connect->query("SELECT email from email_subscriber where email = '$email'")->fetch_array();
+              if ( $emailquery > 0){
+                echo '<script>alert("Such Email already exist, Kindly choose another email")</script>'; 
+              }
+              else{
+                $email = $_POST['email'];
+                $subject = "NEW EMAIL SUBSCRIBER";
+              // Content-Type helps email client to parse file as HTML 
+              // therefore retaining styles
+              $headers = "MIME-Version: 1.0" . "\r\n";
+              $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+              $message = "<html>
+              <head>
+                <title>Hello, A new user just subscribe to your newsletter</title>
+              </head>
+              <body>
+                  <h4>User Email address is ".$email."</h4>
+              </body>
+              </html>";
+              If (mail('youremail@gmail.com', $subject, $message, $headers)) {
+               echo '';
+              }else{
+             echo 'error';
+              }
+                $query = "INSERT INTO email_subscriber(email,inserted_dt) VALUES('$email', '$inserted_dt')";
+                // query the database;
+                $result = $db_connect->query($query);
+           
+            echo '<script>alert("Your email has been succesfully submitted")</script>';
+              }
+            }
+    
+         
+        }
+    
+        
+    ?>
 <footer id="footer">
 
       <div class="footer-newsletter">
@@ -7,7 +54,7 @@
               <h4>Join Our Newsletter</h4>
               <p>Interested in getting any Information as regards driving in Manitoba? Kindly Subscribe!</p>
               <form action="" method="post">
-                <input type="email" name="email"><input type="submit" value="Subscribe">
+                <input type="email" name="email"><input type="submit" name="submit" value="Subscribe">
               </form>
             </div>
           </div>
