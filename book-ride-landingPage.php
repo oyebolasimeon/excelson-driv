@@ -39,7 +39,7 @@
              echo 'error';
               }
               
-              include "headerfiles/connection.php";
+              include "headerFiles/connection.php";
                 $query = "INSERT INTO driving_lesson(date,timeVal,emailVal,nameVal,status,color) VALUES('$date', '$timeVal', '$emailVal', '$nameVal','pending','danger')";
                 // query the database;
                 $result = $db_connect->query($query);
