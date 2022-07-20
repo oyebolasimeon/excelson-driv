@@ -20,7 +20,7 @@
               }
               else{
                 
-                $allowedExts = array("pdf");
+                $allowedExts = array("pdf","docs");
                 $temp = explode(".", $_FILES["pdf_file"]["name"]);
                 $extension = end($temp);
                 $upload_pdf=$_FILES["pdf_file"]["name"];
