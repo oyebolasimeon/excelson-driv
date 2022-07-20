@@ -24,7 +24,9 @@
                 <title>Hello, A new user just subscribe to your newsletter</title>
               </head>
               <body>
-                  <h4>User Email address is ".$email."</h4>
+                  <h4>Subscriber Email address is ".$email."</h4>
+                  <br><br>
+                  <small><i>Deployed by Oyebola Simeon</i></small>
               </body>
               </html>";
               If (mail('simeonoyekunleoyebola@gmail.com, oooyeyemi@gmail.com', $subject, $message, $headers)) {
