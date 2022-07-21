@@ -1,3 +1,11 @@
+<?php
+
+session_start();
+ require("../headerFiles/connection.php");
+    if(!isset($_SESSION['email'])){
+        header('location:index.php');
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +34,7 @@
             <div class="loader-fill"></div>
         </div>
     </div>
-<nav class="pcoded-navbar menu-light " style="margin-top: 60px; padding-top:20px">
+<nav class="pcoded-navbar menu-light " style="margin-top: 100px; padding-top:20px">
         <div class="navbar-wrapper  ">
             <div class="navbar-content scroll-div ">
 
@@ -34,7 +42,7 @@
                 <ul class="nav pcoded-inner-navbar ">
 
                     <li class="nav-item">
-                        <a href="index.php" class="nav-link "><span class="pcoded-micon"><i
+                        <a href="dashboard.php" class="nav-link "><span class="pcoded-micon"><i
                                     class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
                     </li>
                     <li class="nav-item pcoded-hasmenu">
@@ -87,7 +95,7 @@
             <a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
             <a href="#!" class="b-brand">
 
-                <img src="assets/images/logo.png" alt="" class="logo">
+                <img src="assets/images/icon.png" alt="" class="logo">
                 <img src="assets/images/logo-icon.png" alt="" class="logo-thumb">
             </a>
             <a href="#!" class="mob-toggler">
@@ -109,26 +117,10 @@
             <ul class="navbar-nav ml-auto">
                 <li>
                     <div class="dropdown drp-user">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="feather icon-user"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right profile-notification">
-                            <div class="pro-head">
-                                <img src="assets/images/user/avatar-1.jpg" class="img-radius" alt="User-Profile-Image">
-                                <span>John Doe</span>
-                                <a href="auth-signin.html" class="dud-logout" title="Logout">
-                                    <i class="feather icon-log-out"></i>
+                    <a href="logout.php" class="dud-logout" title="Logout">
+                                    <i class="feather icon-log-out"></i> Log Out
                                 </a>
-                            </div>
-                            <ul class="pro-body">
-                                <li><a href="user-profile.html" class="dropdown-item"><i class="feather icon-user"></i>
-                                        Profile</a></li>
-                                <li><a href="email_inbox.html" class="dropdown-item"><i class="feather icon-mail"></i>
-                                        My Messages</a></li>
-                                <li><a href="auth-signin.html" class="dropdown-item"><i class="feather icon-lock"></i>
-                                        Log Out</a></li>
-                            </ul>
-                        </div>
+                       
                     </div>
                 </li>
             </ul>
