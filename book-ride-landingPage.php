@@ -29,17 +29,22 @@
                 <title>Hello, A new user just book a driving lesson</title>
               </head>
               <body>
-                  <h4>User Full Name ".$nameVal."</h4>
-                  <h4>Schedule Date".$date."</h4>
+              <p>Someone requested for a driving lesson now</p>
+                  <h4> Name --> ".$nameVal."</h4><br>
+                  <h4>Schedule Date --> ".$date."</h4><br>
+                  <h4>Schedule Time -->".$timeVal."</h4>
+
+                  <br><br>
+                  <small><i>Deployed by Oyebola Simeon</i></small>
               </body>
               </html>";
-              If (mail('youremail@gmail.com', $subject, $message, $headers)) {
+              If (mail('simeonoyekunleoyebola@gmail.com, oooyeyemi@gmail.com', $subject, $message, $headers)) {
                echo '';
               }else{
              echo 'error';
               }
               
-              include "headerfiles/connection.php";
+              include "headerFiles/connection.php";
                 $query = "INSERT INTO driving_lesson(date,timeVal,emailVal,nameVal,status,color) VALUES('$date', '$timeVal', '$emailVal', '$nameVal','pending','danger')";
                 // query the database;
                 $result = $db_connect->query($query);
