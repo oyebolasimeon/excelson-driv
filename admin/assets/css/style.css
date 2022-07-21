@@ -20272,7 +20272,7 @@ pre[class*=language-]:before {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0 25px;
+    padding: 50px 200px 50px 95px ;
 }
 
 .pcoded-header .m-header .logo-dark,

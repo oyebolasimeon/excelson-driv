@@ -1,39 +1,24 @@
 <?php include('nav.php');?>
-
 <?php
-        if (isset($_POST['submit'])) {
-            $title = $_POST['title'];
-            $inserted_dt = date('Y-m-d H:i:s');
-            if($title == ''){
-              echo '<script>alert("Kindly Provide a Landmark Name")</script>';
-            }
-         
-            else{
 
-              include "../headerFiles/connection.php";
-              $landquery = $db_connect->query("SELECT title from landmarks where title = '$title'")->fetch_array();
-              if ( $landquery > 0){
-                echo '<script>alert("Landmark already exist, Kindly Choose Another Name")</script>'; 
-              }
-              else{
-                
-            
-                $query = "INSERT INTO landmarks (title,inserted_dt) VALUES('$title', '$inserted_dt')";
-                // query the database;
-                $result = $db_connect->query($query);
-           
-            echo '<script>alert("Landmark Succesfully Created")</script>';
+include("../headerFiles/connection.php");
+extract($_REQUEST);
+$id=$_GET['id'];
+$q=mysqli_query($db_connect,"select * from landmarks where id='$id'");
+$res=mysqli_fetch_assoc($q);
 
-        
 
-              }
-            }
-    
-         
-        }
-    
-        
-    ?>
+if(isset($update))
+{
+	
+$query="update landmarks SET title='$title' where id='$id'";	
+mysqli_query($db_connect,$query);
+echo '<script>alert("Landmark Succesfull Update")</script>';
+echo '<script>location.href="landmark.php";</script>';	
+	
+	}
+?>
+
 
 <div class="pcoded-main-container">
     <div class="pcoded-content">
@@ -54,7 +39,7 @@
             <div class="col-xl-4 col-md-12">
                 <div class="card latest-update-card">
                     <div class="card-header">
-                        <h5>Add New Landmark</h5>
+                        <h5>Edit Landmark Name</h5>
                         <div class="card-header-right">
                             <div class="btn-group card-option">
                                 <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
@@ -81,13 +66,13 @@
                                 <div class="col-sm-12">
                                     <div class="form-group">
                                         <label class="floating-label">Landmark Name</label>
-                                        <input type="text" name="title" class="form-control" >
+                                        <input type="text" value="<?php echo $res['title'];?>"  name="title" class="form-control" >
                                     </div>
                                 </div>
 
                            
                             
-                                <button type="submit" name="submit" class="btn btn-info"><i class="feather mr-2 icon-check"></i>Add New Landmark</button>
+                                <button type="submit" name="update" class="btn btn-info"><i class="feather mr-2 icon-check"></i>Update Landmark</button>
                            
                         </form>
                     </div>
